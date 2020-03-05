@@ -9,7 +9,7 @@ RUN bash -cl ". .nvm/nvm.sh \
   && echo -e \"\nnvm use 12.8\" >> ~/.bashrc"
 
 RUN sudo apt-get update \
-    && sudo apt-get innstall -yq \
+    && sudo apt-get install -yq \
         libasound2-dev \
         libgtk-3-dev \
         libnss3-dev
